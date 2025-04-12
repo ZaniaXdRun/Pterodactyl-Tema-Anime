@@ -27,7 +27,7 @@ installTheme(){
     rm -r Pterodactyl-Tema-Anime > /dev/null 2>&1
     echo -e "${GREEN}Download the Theme${RESET}"
     git clone https://github.com/ZaniaXdRun/Pterodactyl-Tema-Anime.git > /dev/null 2>&1
-    cd Pterodactyl-Tema-Anime_Theme > /dev/null 2>&1
+    cd Pterodactyl-Tema-Anime > /dev/null 2>&1
     echo -e "${GREEN}Removing old theme resources if exist${RESET}"
     rm /var/www/pterodactyl/resources/scripts/Pterodactyl-Tema-Anime_Theme.css > /dev/null 2>&1
     rm /var/www/pterodactyl/resources/scripts/index.tsx > /dev/null 2>&1
@@ -97,7 +97,7 @@ echo ""
 echo ""
 echo "[1] GAS INSTALL"
 echo "[2] Restore backup"
-echo "[3] Repair panel (use if you have an error in the theme installation)"
+echo "[3] Perbaiki panel (gunain ini kalo panel error)"
 echo "[4] Exit"
 
 read -p "Please enter a number: " choice
